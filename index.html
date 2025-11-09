@@ -1,24 +1,192 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="style.css" type = "text/css">
+    <title>Parineeta Garhwal - Portfolio</title>
+    <link href = "style.css" rel = "stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel = "stylesheet">
 </head>
 <body>
-        <nav class = "navbar">
-            <a class = "logo">Portfolio.</a>
+    <nav>
+        <div class="container">
+            <a href="#home" class="logo">Parineeta Garhwal</a>
             <ul>
-                <li class = "active"><a href = "#">Home</a> </li>
-                <li><a href = "#">About</a> </li>
-                <li><a href = "#">Skills</a></li>
-                <li><a href = "#">Projects</a></li>
-                <li><a href = "#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
+        </div>
+    </nav>
 
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="avatar"><img src = "https://media.licdn.com/dms/image/v2/D4D03AQGBEWaAgWKDbw/profile-displayphoto-shrink_200_200/B4DZdnXXssHMAY-/0/1749785871461?e=1764201600&v=beta&t=8zSO8k925tNuCW6ZbYr6sTXyXvyNTr67w-vbz_6rRDQ" alt = "PG"></div>
+            <h1>Hi, I'm <span class="highlight">Parineeta Garhwal</span></h1>
+            <p class="subtitle">Aspiring Computer Science Engineer | Learner | Creator in progress</p>
+            <p class="description">
+              Curious tech learner who loves turning ideas into code and exploring the endless world of computers.
+            </p>
+            <div class="btn-group">
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/jsondumpsbinary"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/parineeta-garhwal-664429358/"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+        </div>
+    </section>
 
-    </div>
+    <section id="about" class="bg-white">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80" alt="Workspace">
+                </div>
+                <div class="about-text">
+                    <h3>Crafting Digital Experiences</h3>
+                    <p>
+                        Hi! I’m Parineeta Garhwal, a first-year Computer Science student with a strong curiosity for how technology shapes the world around us. 
+                        I’m currently building a solid foundation in programming, 
+                        web development, and problem-solving while exploring different areas of tech to discover my passion.
+                    </p>
+                    <p>
+                        I enjoy learning through hands-on practice, whether it’s experimenting with small coding projects, exploring new tools, 
+                        or understanding how systems work behind the scenes. My long-term goal is to grow into a developer who creates impactful,
+                         user-centered solutions that make everyday life simpler and smarter.
+                    </p>
+                    <p>
+                       Outside of coding, I love creative design, reading about tech innovations, and exploring how technology blends with art and human behavior.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="bg-gray">
+        <div class="container">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-tags">
+                        <span class="tag">HTML/CSS</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">React</span>
+                        <span class="tag">MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Quick learner</span>
+                        <span class="tag">Strong Communication</span>
+                        <span class="tag">Creative Thinker</span>
+                        <span class="tag">Time management and adaptability</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Currently Learning</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Building Responsive Websites</span>
+                        <span class="tag">DSA basics</span>
+                        <span class="tag">OOPs</span>
+                        <span class="tag">Exploring projects involving python and database</span>
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-white">
+        <div class="container">
+            <h2></h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80" alt="E-Commerce Platform">
+                    <div class="project-content">
+                        <h3>Learning Journey</h3>
+                        <p>Exploring web development using HTML, CSS, and JavaScript.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Practicing Python basics and small automation scripts.</span>
+                            <span class="tech-tag">Learning database connectivity through mini Python programs.</span>
+                            <span class="tech-tag">Solving beginner-level coding problems on platforms like codefores.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80" alt="Task Management App">
+                    <div class="project-content">
+                        <h3>Certificates or Achievements</h3>
+                        <p>Participated in the Smart India Hackathon 2025 as a beginner.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Qualified for Mumbai Hacks round 2</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id = "future-goals">
+                    <img src="https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&q=80" alt="Weather Dashboard">
+                    <div class="project-content">
+                        <h3>Future Goals</h3>
+                        <p>I plan to build my first portfolio project using front-end technologies and gradually move into backend development.
+                            My next goal is to learn JavaScript frameworks and database management systems.</p>
+                    </div>
+                </div>
+                <!-- <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&q=80" alt="Portfolio Website">
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>Modern and responsive portfolio template for developers and designers</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Let's Work Together</h2>
+                <p class="contact-intro">
+                    Have a project in mind? I'd love to hear about it. Let's create something amazing together.
+                </p>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-row">
+                            <input type="text" placeholder="Your Name" required>
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <input type="text" placeholder="Subject" required>
+                        <textarea rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-email">
+                    <p>Or reach out directly:</p>
+                    <a href="mailto:hello@example.com">parineetagarhwal@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Parineeta Garhwal. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/jsondumpsbinary"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/parineeta-garhwal-664429358/"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
