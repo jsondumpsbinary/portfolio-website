@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #39918c;
+    background-color:#533440;
 
 }
 
@@ -21,7 +21,6 @@ a{
     left : 0;
     width: 100%;
     padding :25px 9%;
-    background: #d0b49f;
     display : flex;
     justify-content : space-between;
     align-items: center;
@@ -47,3 +46,9 @@ a{
     font-size: 20px;
     font-weight: 500;
 }
+
+.navbar ul li:hover a, .navbar ul li.active a{
+    color:#fef5d2;
+}
+
+
